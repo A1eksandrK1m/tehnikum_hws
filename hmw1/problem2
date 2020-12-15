@@ -1,0 +1,16 @@
+print("Введите любые целые три числа поочередно:")
+a = int(input())
+b = int(input())
+c = int(input())
+m = a
+
+if m < b:
+  m = b
+else: 
+  print()
+if m < c:
+  m = c
+else:
+ print()
+ 
+print("Наибольшим числом является " + str(m))
